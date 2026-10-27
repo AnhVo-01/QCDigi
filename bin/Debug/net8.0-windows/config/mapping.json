@@ -1,0 +1,79 @@
+{
+  "aliases": {
+    "ROLLS/ CARTON QTY ( Số Lượng cuộn /carton)": "cartonRolls",
+    "NET WEIGHT PER OUTER BAG WITH TAPES/BLOCKED - GRAM (Trọng luợng/ BỊCH )": "tapeNetWeightRoll",
+    "PACKING/ Đóng gói": "packing",
+    "NET WEIGHT PER CARTON (KG) (Trọng luợng/ carton không tính bao bì)": "cartonWeight",
+    "SMALL OUTER BAGS/ BIG OUTER BAG ( Túi bọc ngoài nhỏ/ túi bọc ngoài to)": "outerBag",
+    "NET WEIGHT PER ROLL/BLOCK- GRAM (Trọng luợng/ cuộn/thếp không tính bao bì)": "netWeightRoll",
+    "BLOCKS/CARTON QTY (Số luợng thếp /carton)": "cartonRolls",
+    "OUTER BAGS/ CARTON - pcs (Túi bọc ngoài / carton)": "outerBagPerCarton",
+    "BAGS/ BLOCK; TÚI/ THẾP": "pcs",
+    "THE TOLERANCE IN PRINTING POSTION (mm) (độ sai lệch hình in)": "printTolerance",
+    "ROLL LENGTH AFTER C FOLD (mm) (rộng sau gấp C)": "rollLength",
+    "ROLL LENGTH AFTER C-FOLDED (mm) (rộng cuộn sau gấp C)": "rollLength",
+    "WEIGHT PER PCS-Gram (Trọng lượng 1 túi/gr)": "bagWeight",
+    "TYPE OF HANDLE (Loại quai túi)": "cutting",
+    "PCS/PACK QTY (Số luợng / thếp)": "pcs",
+    "CORE KIND ( loại lõi)": "coreType",
+    "PACKS/CARTON QTY (Số luợng thếp /carton)": "cartonRolls",
+    "OUTER BAGS STANDARD ( tiêu chí túi bọc ngoài)": "outer",
+    "WIDTH OF KNIFE (rộng)": "cutWidth",
+    "PCS/ROLL QTY (Số luợng / cuộn)": "pcs",
+    "Inner diameter (phi trong)": "innerDiameter",
+    "Outer diameter (phi ngoài)": "outerDiameter",
+    "ROLLS/CARTON QTY (Số luợng roll /carton)": "cartonRolls",
+    "PRINT (Color quantity, pantone) (Số mầu in, pantone mầu)": "printColors",
+    "DEPTH OF HANDLE (Sâu quai túi)": "cutDepth",
+    "PCS/ FOLDER (ROLL) (Số cái / thếp (cuộn))": "pcs",
+    "FOLDERS (ROLLS)/ CARTON (Số luợng thếp (cuộn) /carton)": "cartonRolls"
+  },
+  "ignore": [],
+  "formTypeRules": [
+    {
+      "contains": "ORDER SPECIFICATIONS",
+      "formType": "PE"
+    },
+    {
+      "contains": "QUALITY SPECIFICATIONS",
+      "formType": "PE"
+    },
+    {
+      "contains": "INSPECTION REPORT",
+      "formType": "TH"
+    }
+  ],
+  "defaultFormType": "PE",
+  "fuzzyAcceptThreshold": 0.72,
+  "fuzzyConfidentThreshold": 0.85,
+  "NormalizedAliases": {
+    "rolls/ carton qty so luong cuon /carton": "cartonRolls",
+    "net weight per outer bag with tapes/blocked gram trong luong/ bich": "tapeNetWeightRoll",
+    "packing/ dong goi": "packing",
+    "net weight per carton kg trong luong/ carton khong tinh bao bi": "cartonWeight",
+    "small outer bags/ big outer bag tui boc ngoai nho/ tui boc ngoai to": "outerBag",
+    "net weight per roll/block gram trong luong/ cuon/thep khong tinh bao bi": "netWeightRoll",
+    "blocks/carton qty so luong thep /carton": "cartonRolls",
+    "outer bags/ carton pcs tui boc ngoai / carton": "outerBagPerCarton",
+    "bags/ block tui/ thep": "pcs",
+    "the tolerance in printing postion mm do sai lech hinh in": "printTolerance",
+    "roll length after c fold mm rong sau gap c": "rollLength",
+    "roll length after c folded mm rong cuon sau gap c": "rollLength",
+    "weight per pcs gram trong luong 1 tui/gr": "bagWeight",
+    "type of handle loai quai tui": "cutting",
+    "pcs/pack qty so luong / thep": "pcs",
+    "core kind loai loi": "coreType",
+    "packs/carton qty so luong thep /carton": "cartonRolls",
+    "outer bags standard tieu chi tui boc ngoai": "outer",
+    "width of knife rong": "cutWidth",
+    "pcs/roll qty so luong / cuon": "pcs",
+    "inner diameter phi trong": "innerDiameter",
+    "outer diameter phi ngoai": "outerDiameter",
+    "rolls/carton qty so luong roll /carton": "cartonRolls",
+    "print color quantity pantone so mau in pantone mau": "printColors",
+    "depth of handle sau quai tui": "cutDepth",
+    "pcs/ folder roll so cai / thep cuon": "pcs",
+    "folders rolls / carton so luong thep cuon /carton": "cartonRolls"
+  },
+  "NormalizedIgnore": []
+}

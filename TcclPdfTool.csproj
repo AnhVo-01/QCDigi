@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <!-- DevExpress 22.1 (bản .NET Framework) - đọc PDF qua PdfDocumentProcessor. -->
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);MSB3277</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspose.Cells" Version="20.6.0" />
+    <PackageReference Include="Aspose.PDF" Version="20.6.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.PDF">
+      <HintPath>lib\Aspose.PDF.20.6.0\lib\net3.5\Aspose.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.v22.1"><HintPath>lib\DevExpress.Data.v22.1.dll</HintPath></Reference>
+    <Reference Include="DevExpress.Docs.v22.1"><HintPath>lib\DevExpress.Docs.v22.1.dll</HintPath></Reference>
+    <Reference Include="DevExpress.Drawing.v22.1"><HintPath>lib\DevExpress.Drawing.v22.1.dll</HintPath></Reference>
+    <Reference Include="DevExpress.Office.v22.1.Core"><HintPath>lib\DevExpress.Office.v22.1.Core.dll</HintPath></Reference>
+    <Reference Include="DevExpress.Pdf.v22.1.Core"><HintPath>lib\DevExpress.Pdf.v22.1.Core.dll</HintPath></Reference>
+    <Reference Include="DevExpress.Pdf.v22.1.Drawing"><HintPath>lib\DevExpress.Pdf.v22.1.Drawing.dll</HintPath></Reference>
+    <Reference Include="DevExpress.Printing.v22.1.Core"><HintPath>lib\DevExpress.Printing.v22.1.Core.dll</HintPath></Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

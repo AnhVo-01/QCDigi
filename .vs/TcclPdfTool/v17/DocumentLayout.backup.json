@@ -1,0 +1,160 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Project\\TcclPdfTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|d:\\project\\tcclpdftool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|d:\\project\\tcclpdftool\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|D:\\Project\\TcclPdfTool\\catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:catalogform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|D:\\Project\\TcclPdfTool\\detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|D:\\Project\\TcclPdfTool\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|d:\\project\\tcclpdftool\\detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:detailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|d:\\project\\tcclpdftool\\settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:settingsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|d:\\project\\tcclpdftool\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD4FCDCF-3C1B-4954-B05F-CA7ECC1EC512}|TcclPdfTool.csproj|solutionrelative:config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f3a1b2c3-d4e5-6789-abcd-ef0123456789}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CatalogForm.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\CatalogForm.cs",
+              "RelativeDocumentMoniker": "CatalogForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\CatalogForm.cs [Design]",
+              "RelativeToolTip": "CatalogForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T08:40:05.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailForm.cs",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\DetailForm.cs",
+              "RelativeDocumentMoniker": "DetailForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\DetailForm.cs",
+              "RelativeToolTip": "DetailForm.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAawHYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T02:42:39.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DetailForm.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\DetailForm.cs",
+              "RelativeDocumentMoniker": "DetailForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\DetailForm.cs [Design]",
+              "RelativeToolTip": "DetailForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-02T02:35:02.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\Config\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Config\\AppConfig.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\Config\\AppConfig.cs",
+              "RelativeToolTip": "Config\\AppConfig.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAiwEQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-29T09:41:06.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SettingsForm.cs",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "SettingsForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\SettingsForm.cs",
+              "RelativeToolTip": "SettingsForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAEwFMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T03:54:37.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SettingsForm.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\SettingsForm.cs",
+              "RelativeDocumentMoniker": "SettingsForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\SettingsForm.cs [Design]",
+              "RelativeToolTip": "SettingsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T06:04:22.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\MainForm.cs",
+              "RelativeToolTip": "MainForm.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAIA7wKIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-14T04:46:03.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\Project\\TcclPdfTool\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "D:\\Project\\TcclPdfTool\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T03:26:40.524Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
