@@ -44,6 +44,8 @@
             _btnSave = new ToolStripButton();
             _btnExport = new ToolStripButton();
             toolStripSeparator3 = new ToolStripSeparator();
+            toolStripSeparator5 = new ToolStripSeparator();
+            about = new ToolStripButton();
             jobRows = new DataGridView();
             Chon = new DataGridViewCheckBoxColumn();
             TenFile = new DataGridViewTextBoxColumn();
@@ -127,10 +129,10 @@
             // 
             // toolStrip1
             // 
-            toolStrip1.Items.AddRange(new ToolStripItem[] { btnOpen, btnLoad, toolStripSeparator4, lblDonHang, txtDonHang, btnLoadByOrder, toolStripSeparator1, _btnRun, _btnStop, toolStripSeparator2, _btnSave, _btnExport, toolStripSeparator3, btnSettings });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { btnOpen, btnLoad, toolStripSeparator4, lblDonHang, txtDonHang, btnLoadByOrder, toolStripSeparator1, _btnRun, _btnStop, toolStripSeparator2, _btnSave, _btnExport, toolStripSeparator3, btnSettings, toolStripSeparator5, about });
             toolStrip1.Location = new Point(0, 0);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(1051, 25);
+            toolStrip1.Size = new Size(1093, 25);
             toolStrip1.TabIndex = 0;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -180,6 +182,20 @@
             toolStripSeparator3.Name = "toolStripSeparator3";
             toolStripSeparator3.Size = new Size(6, 25);
             // 
+            // toolStripSeparator5
+            // 
+            toolStripSeparator5.Name = "toolStripSeparator5";
+            toolStripSeparator5.Size = new Size(6, 25);
+            // 
+            // about
+            // 
+            about.Image = (Image)resources.GetObject("about.Image");
+            about.ImageTransparentColor = Color.Magenta;
+            about.Name = "about";
+            about.Size = new Size(79, 22);
+            about.Text = "Thông tin";
+            about.Click += about_Click;
+            // 
             // jobRows
             // 
             jobRows.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -188,7 +204,7 @@
             jobRows.Columns.AddRange(new DataGridViewColumn[] { Chon, TenFile, MaXXTH, MaSPNB, Mau, DocDuoc, MapDuoc, CanSoat, ChuaMap, TrangThai });
             jobRows.Location = new Point(4, 28);
             jobRows.Name = "jobRows";
-            jobRows.Size = new Size(1043, 409);
+            jobRows.Size = new Size(1085, 409);
             jobRows.TabIndex = 2;
             // 
             // Chon
@@ -273,7 +289,7 @@
             _log.Location = new Point(4, 441);
             _log.MaximumSize = new Size(0, 150);
             _log.Name = "_log";
-            _log.Size = new Size(1043, 94);
+            _log.Size = new Size(1085, 94);
             _log.TabIndex = 3;
             // 
             // statusStrip1
@@ -281,7 +297,7 @@
             statusStrip1.Items.AddRange(new ToolStripItem[] { txtOpen, _progress, _status });
             statusStrip1.Location = new Point(0, 539);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(1051, 22);
+            statusStrip1.Size = new Size(1093, 22);
             statusStrip1.TabIndex = 4;
             statusStrip1.Text = "statusStrip1";
             // 
@@ -305,7 +321,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1051, 561);
+            ClientSize = new Size(1093, 561);
             Controls.Add(statusStrip1);
             Controls.Add(_log);
             Controls.Add(jobRows);
@@ -355,5 +371,7 @@
         private DataGridViewTextBoxColumn CanSoat;
         private DataGridViewTextBoxColumn ChuaMap;
         private DataGridViewTextBoxColumn TrangThai;
+        private ToolStripSeparator toolStripSeparator5;
+        private ToolStripButton about;
     }
 }

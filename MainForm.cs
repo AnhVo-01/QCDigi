@@ -748,5 +748,11 @@ namespace TcclPdfTool
             Log($"{title}: {ex.Message}");
             MessageBox.Show(this, ex.Message, title, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
+        private void about_Click(object sender, EventArgs e)
+        {
+            using var f = new AboutForm();
+            if (f.ShowDialog(this) != DialogResult.OK) return;
+        }
     }
 }
