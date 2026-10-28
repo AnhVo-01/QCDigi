@@ -9,9 +9,8 @@ namespace TcclPdfTool
     public partial class AboutForm : Form
     {
         // Repo chứa các bản phát hành (GitHub Releases) của ứng dụng
-        private const string GithubOwner = "AnhVo-01";
         private const string GithubRepo = "QCDigi";
-        private static readonly string LatestReleaseUrl = $"https://api.github.com/repos/{GithubOwner}/{GithubRepo}/releases/latest";
+        private static readonly string LatestReleaseUrl = $"https://api.github.com/repos/AnhVo-01/{GithubRepo}/releases/latest";
 
         private static readonly HttpClient http = CreateHttpClient();
 
@@ -33,6 +32,15 @@ namespace TcclPdfTool
             progressInstall.Visible = false;
 
             FormClosing += (_, _) => downloadCts?.Cancel();
+        }
+
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+
+            // Dùng icon của form cha (MainForm) làm logo ở phần header
+            var icon = Owner?.Icon;
+            if (icon != null) appIcon.Image = new Icon(icon, 48, 48).ToBitmap();
         }
 
         private static HttpClient CreateHttpClient()

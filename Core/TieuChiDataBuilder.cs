@@ -342,32 +342,6 @@ public sealed class TieuChiDataBuilder
         Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
     };
 
-    /// <summary>
-    /// Sinh chuỗi cho cột TieuChiChatLuong.TieuChiData.
-    /// Cấu trúc bám đúng BuildTieuChiData() phía server: { maTieuChi: { DanhMucId, ... } }.
-    /// Các trường phục vụ rà soát (Confidence, SourceLabel...) cố ý KHÔNG được ghi ra.
-    /// </summary>
-    public static string ToTieuChiDataJson(IReadOnlyDictionary<string, TieuChiField> fields)
-    {
-        var root = new JsonObject();
-        foreach (var kv in fields.OrderBy(x => x.Value.DanhMucId))
-        {
-            var f = kv.Value;
-            root[kv.Key] = new JsonObject
-            {
-                ["DanhMucId"] = f.DanhMucId,
-                ["Tolerance"] = f.Tolerance,
-                ["SpecificationsVi"] = f.SpecificationsVi,
-                ["SpecificationsEn"] = f.SpecificationsEn,
-                ["MinTolerance"] = f.MinTolerance,
-                ["MaxTolerance"] = f.MaxTolerance,
-                ["MinMeasuring"] = MeasuringNode(f.MinMeasuringText, f.MinMeasuring),
-                ["MaxMeasuring"] = MeasuringNode(f.MaxMeasuringText, f.MaxMeasuring)
-            };
-        }
-        return root.ToJsonString(JsonOpts);
-    }
-
     /// <summary>Kiểu "string" có trị số đo dạng chữ thì ghi nguyên văn, còn lại ghi số.</summary>
     private static JsonNode? MeasuringNode(string? text, decimal? value)
         => text is not null ? JsonValue.Create(text) : value is null ? null : JsonValue.Create(value.Value);
@@ -391,6 +365,7 @@ public sealed class TieuChiDataBuilder
             root[kv.Key] = new JsonObject
             {
                 ["DanhMucId"] = f.DanhMucId,
+                ["Tolerance"] = f.Tolerance,
                 ["SpecificationsVi"] = f.SpecificationsVi,
                 ["SpecificationsEn"] = f.SpecificationsEn,
                 ["MinTolerance"] = f.MinTolerance,
