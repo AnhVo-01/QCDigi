@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TcclPdfTool")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb9de295a9bf9de4b6041469c700dde756598ef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("TcclPdfTool")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TcclPdfTool")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
