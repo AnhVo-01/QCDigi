@@ -336,12 +336,6 @@ public sealed class TieuChiDataBuilder
 
     // ------------------------------------------------------------ xuất JSON
 
-    private static readonly JsonSerializerOptions JsonOpts = new()
-    {
-        WriteIndented = true,
-        Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-    };
-
     /// <summary>Kiểu "string" có trị số đo dạng chữ thì ghi nguyên văn, còn lại ghi số.</summary>
     private static JsonNode? MeasuringNode(string? text, decimal? value)
         => text is not null ? JsonValue.Create(text) : value is null ? null : JsonValue.Create(value.Value);

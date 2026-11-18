@@ -133,7 +133,7 @@ namespace TcclPdfTool
             if (string.IsNullOrWhiteSpace(raw)) return result;
 
             var seen = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
-            foreach (var part in raw.Split([',', ';', '\n', '\r', '\t'], StringSplitOptions.RemoveEmptyEntries))
+            foreach (var part in raw.Split([';', '\n', '\r', '\t'], StringSplitOptions.RemoveEmptyEntries))
             {
                 var code = part.Trim();
                 if (code.Length > 0 && seen.Add(code)) result.Add(code);
